@@ -42,4 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.timeSaver').innerHTML += `<li>${time}</li>`;
         setTimeout(run, 2000);
     }, 2000)
+
+    /* Просто моя задача */
+    document.querySelector('.viewTime').scrollTop = document.querySelector('.viewTime').scrollHeight;
 });
